@@ -1,0 +1,29 @@
+# GoGitSomePrivacy Configuration
+
+# GitHub API Configuration
+github:
+  # GitHub Personal Access Token (can also be set via GITHUB_TOKEN or GGSP_GITHUB_TOKEN env var)
+  token: ""
+  
+  # Rate limit for GitHub API requests (requests per second)
+  rate_limit_per_second: 10.0
+  
+  # Timeout for API requests in seconds
+  timeout_seconds: 30
+
+# Scanning Configuration
+scan:
+  # Maximum number of concurrent workers for scanning
+  max_workers: 10
+  
+  # Number of characters to include in context around PII matches
+  context_size: 50
+  
+  # Whether to perform case-sensitive searches
+  case_sensitive: false
+  
+  # Include author name in PII search
+  include_author: true
+  
+  # Include committer name in PII search
+  include_committer: true
