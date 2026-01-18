@@ -290,7 +290,9 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## 📝 License
 
-[Add your license here]
+MIT License - see [LICENSE](LICENSE) file for details.
+
+Free and open source for everyone! 🎉
 
 ## 🙏 Credits
 
